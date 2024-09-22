@@ -2,7 +2,7 @@
 
 int main() {
     // Объявление переменных для основания и высоты
-    double base, height, area;
+    double base, height, result;
 
     // Запрос у пользователя ввести основание и высоту треугольника
     std::cout << "Введите основание треугольника: ";
@@ -11,10 +11,10 @@ int main() {
     std::cin >> height;
 
     // Вычисление площади треугольника
-    area = 0.5 * base * height;
+    result = 0.5 * base * height;
 
     // Вывод результата
-    std::cout << "Площадь треугольника составляет: " << area << std::endl;
+    std::cout << "Площадь треугольника составляет: " << result << std::endl;
 
     return 0;
 }
